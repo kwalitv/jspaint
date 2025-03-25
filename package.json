@@ -112,7 +112,7 @@
     "typescript": "^5.4.3"
   },
   "scripts": {
-    "start": "node ./localization/preprocess.js",
+    "start": "node .",
     "electron:start": "electron-forge start",
     "electron:debug-start": "electron-forge start --inspect-electron",
     "electron:package": "electron-forge package",
