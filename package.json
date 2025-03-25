@@ -112,7 +112,7 @@
     "typescript": "^5.4.3"
   },
   "scripts": {
-    "start": "start-server-and-test test:start-server http://localhost:11822 cy:run"
+    "start": "start-server-and-test test:start-server http://localhost:11822 cy:run",
     "electron:start": "electron-forge start",
     "electron:debug-start": "electron-forge start --inspect-electron",
     "electron:package": "electron-forge package",
